@@ -1,0 +1,15 @@
+#-*- coding: utf-8 -*-
+"""
+  Created by Donald.Liu @ 2014/07/19
+"""
+
+import threading
+
+class weather(threading.Thread):
+  def __init__(self, thread_name):
+    threading.Thread.__init__(self, name=thread_name)
+  
+  def run(self):
+    pass
+
+
